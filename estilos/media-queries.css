@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*Pequenas telas: ate 600px
+Celular 600px ate 768px
+Tablet 768px ate 992px
+Desktop 992px ate 1200px
+Grandes telas acima de 1200px*/
+
+@media screen and (min-width:768px) and (max-width:992px){ /*tablet*/
+    body{
+        background-image: linear-gradient(to top, rgb(84, 96, 92), rgb(64, 120, 147));
+    }
+
+    section#login{
+        width: 80%;
+    }
+
+    div#img{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    div#form{
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width:992px){ /*telas grandes*/
+    body{
+        background-image: linear-gradient(to top, rgb(84, 96, 92), rgb(64, 120, 147));
+    }
+
+    section#login{
+        width: 900px;
+    }
+
+    div#img{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    div#form{
+        float: right;
+        width: 65%;
+    }
+}
