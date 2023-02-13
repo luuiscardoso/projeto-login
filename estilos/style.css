@@ -26,7 +26,7 @@ section#login{
     background-color: white;
     border-radius:15px ;
     width: 254px;
-    height: 515px;
+    height: 520px;
     overflow: hidden;
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
@@ -52,6 +52,7 @@ div#form{
 
 #form p{
     font-size: .9em;
+    margin: 15px 0px;
 }
 
 .campo{
@@ -105,8 +106,19 @@ a:hover{
     transition: .5s;
 }
 
-input{
+span{
+    font-size: 2em;
+    padding: 7px;
+}
+
+div.campo > input{
     border: none;
     outline: none;
     background-color: rgb(213, 213, 213);
+    width: calc(100% - 44px);
+    font-size: .9em;
+    padding: 4px;
+    height: 100%;
+    transform: translateY(-5px);
 }
+

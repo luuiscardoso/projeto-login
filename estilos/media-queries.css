@@ -13,6 +13,7 @@ Grandes telas acima de 1200px*/
 
     section#login{
         width: 80%;
+        height: 400px;
     }
 
     div#img{
@@ -33,6 +34,10 @@ Grandes telas acima de 1200px*/
     #form p{
         font-size: .9em;
     }
+
+    #form p{
+        padding: 15px;
+    }
 }
 
 @media screen and (min-width:992px){ /*telas grandes*/
@@ -42,6 +47,7 @@ Grandes telas acima de 1200px*/
 
     section#login{
         width: 900px;
+        height: 370px;
     }
 
     div#img{
@@ -57,5 +63,9 @@ Grandes telas acima de 1200px*/
 
     #form h1{
         font-size: 2em;
+    }
+
+    #form p{
+        padding: 15px;
     }
 }
